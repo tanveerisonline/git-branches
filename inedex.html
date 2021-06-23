@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chips</title>
+</head>
+<body>
+    <div class="main">
+        <div class="chip" id="one" onclick="select(this.id)">
+            <img src="./images/html.png" alt="Person" >
+            HTML
+            <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+        </div> 
+
+        <div class="chip" id="two" onclick="select(this.id)">
+            <img src="./images/css.png" alt="Person" >
+            CSS
+            <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+        </div> 
+
+        <div class="chip" id="three" onclick="select(this.id)">
+            <img src="./images/js.png" alt="Person" >
+            JAVASCRIPT
+            <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+        </div>
+
+        <div class="chip" id="four" onclick="select(this.id)">
+            <img src="./images/react.png" alt="Person" >
+            REACT
+            <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+        </div>
+    </div>    
+
+<script src="index.js"></script>
+</body>
+</html>
